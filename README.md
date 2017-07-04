@@ -3,12 +3,12 @@
 	这款应用程序主要运用到的东西有：
 	实时数据抓取，仿网易的侧滑效果，加载图片的picasso,RecyclerView的封装，CardView的使用，以及SwipeRefeshLayout上拉加载下拉刷新，数据爬虫，Okhttp的数据请求框架，以及一些自定义的控件，正式打包签名、混淆等。
 	【截图展示】
-    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-16-02-36.png?raw=true)
-    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-15-18-47.png?raw=true)
-    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-15-20-19.png?raw=true)
-    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-15-20-35.png?raw=true)
-    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-15-19-56.png?raw=true)
-    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-15-20-48.png?raw=true)
+    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-16-02-36.png)
+    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-15-18-47.png)
+    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-15-20-19.png)
+    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-15-20-35.png)
+    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-15-19-56.png)
+    ![image text](https://github.com/haoxiongqin/HealthNews/blob/master/app/screenshot/Screenshot_2017-07-04-15-20-48.png)
 
 
 
