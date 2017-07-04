@@ -1,0 +1,37 @@
+<com.keephealth.app.widget.DragLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drag_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/head_backg"
+    >
+    <!--1.底部功能(左侧侧滑功能布局)-->
+    <include layout="@layout/left_view_layout"/>
+    <!--2.上层主界面View  main view布局-->
+    <com.keephealth.app.widget.CustomRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+        <!--顶部导航栏布局-->
+        <include layout="@layout/top_bar_common_layout"/>
+        <!--中间内容后面放入Fragment-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+           <fragment
+               android:id="@+id/main_info_fragment"
+               class="com.keephealth.app.fragment.MainInfoFragment"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+        </FrameLayout>
+        </LinearLayout>
+    </com.keephealth.app.widget.CustomRelativeLayout>
+</com.keephealth.app.widget.DragLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_white">#FFFFFF</color>
+    <color name="main_back">#478de4</color>
+    <color name="color_black">#000000</color>
+    <color name="color_tab_title">#777777</color>
+    <color name="color_head_title">#AAAAAA</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_lv_selector">#aaeeeeee</color>
+
+    <integer-array name="rainbow">
+        <item>@color/mask_tags_1</item>
+        <item>@color/mask_tags_2</item>
+        <item>@color/mask_tags_3</item>
+        <item>@color/mask_tags_4</item>
+        <item>@color/mask_tags_5</item>
+        <item>@color/mask_tags_6</item>
+        <item>@color/mask_tags_12</item>
+    </integer-array>
+
+    <!--标签背景颜色-->
+    <color name="mask_tags_1">#f45170</color>
+    <color name="mask_tags_2">#f0cc23</color>
+    <color name="mask_tags_3">#a289df</color>
+    <color name="mask_tags_4">#ff6161</color>
+    <color name="mask_tags_5">#678ce0</color>
+    <color name="mask_tags_6">#42d1db</color>
+    <color name="mask_tags_7">#51cc96</color>
+    <color name="mask_tags_8">#1da8fe</color>
+    <color name="mask_tags_9">#9ec72c</color>
+    <color name="mask_tags_10">#478de4</color>
+    <color name="mask_tags_11">#ffa319</color>
+    <color name="mask_tags_12">#f08945</color>
+
+    <color name="colorPrimary">@color/main_color</color>
+    <color name="colorPrimaryDark">@color/main_color</color>
+    <color name="colorAccent">@color/main_color</color>
+    <color name="picker_select_text_color">@color/main_color</color>
+    <!-- 主背景色值 -->
+    <color name="main_color">#1457A3</color>
+    <color name="main_color_pressed">#4379B5</color>
+    <color name="background">#F5F5F5</color>
+    <color name="app_background">#E8EDF0</color>
+    <color name="header_background">#F9F9F9</color>
+    <color name="click_background">#E5E5E5</color>
+    <!-- 分割线色值 -->
+    <color name="border">#EDEDED</color>
+    <color name="border_b">#878787</color>
+    <!-- 字体颜色值 -->
+    <color name="text_color_black">#0B0B0B</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="text_color_gray">#878787</color>
+    <color name="text_color_gray_light">#AFAFAF</color>
+    <!-- 透明半透明色值 -->
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half_black">#66000000</color>
+    <color name="transparent_half_white">#33ffffff</color>
+    <!-- 应用需要的黑白值 -->
+    <color name="blue">#03A9F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#ff2600</color>
+    <color name="gray">#A1A1A1</color>
+    <color name="orange">#ff5900</color>
+    <color name="yellow">#ff9900</color>
+    <color name="Green">#80b547</color>
+    <color name="appback">#f9f9f9</color>
+    <color name="Brown">#db6958</color>
+
+
+</resources>

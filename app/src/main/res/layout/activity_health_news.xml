@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <include layout="@layout/header_view" />
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:image_scale_type="center_crop"
+        app:is_auto_play="true"
+        app:title_textcolor="@color/red"
+        app:title_textsize="@dimen/text_middle"
+        app:title_height="30dp"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/newsCycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

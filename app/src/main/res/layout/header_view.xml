@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="@color/main_back">
+
+    <!-- 返回按钮 -->
+    <TextView
+        android:id="@+id/headerBack"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/spacing_middle"
+        android:paddingRight="@dimen/spacing_middle"
+        android:textSize="@dimen/text_middle"
+        android:textColor="@color/text_color_gray"
+        android:clickable="true"
+        android:singleLine="true"
+        android:gravity="center"
+        android:drawableLeft="@mipmap/back_black"/>
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/text_large"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:maxWidth="180dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/headerSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/spacing_middle"
+        android:textSize="@dimen/text_middle"
+        android:textColor="@color/main_color"
+        android:clickable="true"
+        android:singleLine="true"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/boder_size"
+        android:background="@color/border"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

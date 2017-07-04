@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/main_back</item>
+        <item name="colorPrimaryDark">@color/main_back</item>
+        <item name="colorAccent">@color/main_back</item>
+
+    </style>
+    <style name="App_Theme" parent="Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="theme_fullScreen" parent="android:Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">?android:windowNoTitle</item>
+    </style>
+    <style name="Transparent" parent="AppTheme">
+        <item name="android:windowBackground">@color/transparent_half_black</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <!--button内间距-->
+    <style name="button_text_padding">
+        <item name="android:paddingLeft">@dimen/spacing_middle</item>
+        <item name="android:paddingRight">@dimen/spacing_middle</item>
+        <item name="android:paddingTop">@dimen/spacing_small</item>
+        <item name="android:paddingBottom">@dimen/spacing_small</item>
+    </style>
+</resources>
