@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KeepHealthOnline.iml" filepath="$PROJECT_DIR$/KeepHealthOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HealthNews.iml" filepath="$PROJECT_DIR$/HealthNews.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

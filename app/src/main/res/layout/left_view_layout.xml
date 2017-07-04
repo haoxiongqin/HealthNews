@@ -31,12 +31,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="名字:名人堂"
+                    android:text="名字:悟.静"
                     android:textColor="#ffffff"
                     android:textSize="18sp" />
                 <TextView
                     android:layout_marginTop="6dp"
-                    android:text="养生高级会员"
+                    android:text="android开发者"
                     android:textColor="#ffffff"
                     android:textSize="14sp"
                     android:layout_width="wrap_content"
