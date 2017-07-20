@@ -11,6 +11,7 @@
   * Okhttp的数据请求框架
   * 自定义控件
   * 正式打包签名、混淆
+  * 用crosswalk替换WebView
 ### 【截图展示】
 ![image](https://raw.githubusercontent.com/haoxiongqin/HealthNews/master/app/screenshot/Screenshot_2017-07-04-16-02-36.png)  
 ![image](https://raw.githubusercontent.com/haoxiongqin/HealthNews/master/app/screenshot/Screenshot_2017-07-04-15-18-47.png)  
