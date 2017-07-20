@@ -33,7 +33,6 @@ public class MainActivity extends BaseActivity implements DefineView {
     public DragLayout getDrag_layout() {
         return drag_layout;
     }
-
     private DragLayout drag_layout;
     private ImageView top_bar_icon;
     private ListView lv_left_main;

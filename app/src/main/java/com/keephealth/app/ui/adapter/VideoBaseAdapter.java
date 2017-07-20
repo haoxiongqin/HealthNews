@@ -12,7 +12,7 @@ import com.keephealth.app.R;
 import com.keephealth.app.entity.MySection;
 import com.keephealth.app.entity.VideoBaseBean;
 import com.keephealth.app.ui.VideoMoreActivity;
-import com.keephealth.app.ui.WebActivity;
+import com.keephealth.app.ui.VideoWebviewActivity;
 
 import java.util.List;
 
@@ -53,11 +53,7 @@ public class VideoBaseAdapter extends BaseSectionQuickAdapter<MySection, BaseVie
         helper.getConvertView().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                context.startActivity(new Intent(context, VideoListActivity.class)
-//                        .putExtra("title", video.getTitle())
-//                        .putExtra("titleUrl", video.getTitleUrl())
-//                );
-                WebActivity.runActivity(context,video.getTitle(),video.getTitleUrl());
+                VideoWebviewActivity.runActivity(context,video.getTitle(),video.getTitleUrl());
             }
         });
     }

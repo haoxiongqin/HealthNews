@@ -57,9 +57,7 @@ public class VideoListActivity extends BaseActivity {
         banners.setOnBannerListener(new OnBannerListener() {
             @Override
             public void OnBannerClick(int position) {
-//                startActivity(new Intent(VideoListActivity.this,VideoPlayActivity.class).putExtra("title",baner.get(position).getTitle())
-//                        .putExtra("titleUrl",baner.get(position).getTitleUrl()));
-                WebActivity.runActivity(VideoListActivity.this,baner.get(position).getTitle(),baner.get(position).getTitleUrl());
+                VideoWebviewActivity.runActivity(VideoListActivity.this,baner.get(position).getTitle(),baner.get(position).getTitleUrl());
             }
         });
     }

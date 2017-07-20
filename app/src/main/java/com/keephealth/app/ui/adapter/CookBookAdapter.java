@@ -11,7 +11,7 @@ import com.keephealth.app.App;
 import com.keephealth.app.R;
 import com.keephealth.app.entity.SearchBean;
 import com.keephealth.app.ui.CookDetailActivity;
-import com.keephealth.app.ui.WebActivity;
+import com.keephealth.app.ui.VideoWebviewActivity;
 
 import java.util.List;
 
@@ -40,7 +40,7 @@ public class CookBookAdapter extends BaseQuickAdapter<SearchBean, BaseViewHolder
            public void onClick(View v) {
                Intent intent = new Intent();
                if (page == 1) {
-                   WebActivity.runActivity(context,item.getTitle(),item.getHref());
+                   VideoWebviewActivity.runActivity(context,item.getTitle(),item.getHref());
                }else{
                    intent.putExtra("title", item.getTitle());
                    intent.putExtra("url", item.getHref());

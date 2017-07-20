@@ -1,7 +1,6 @@
 package com.keephealth.app.ui;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -27,7 +26,6 @@ public class ChinaMedicineActivity extends BaseActivity {
 
     TabLayout tabLayout;
     ViewPager viewPager;
-    FloatingActionButton fab;
     List<Pair<String,Fragment>> fragment;
     TextView headerBack;
     @Override
@@ -62,17 +60,14 @@ public class ChinaMedicineActivity extends BaseActivity {
         MainAdapter(FragmentManager fm) {
             super(fm);
         }
-
         @Override
         public Fragment getItem(int position) {
             return fragment.get(position).second;
         }
-
         @Override
         public int getCount() {
             return fragment.size();
         }
-
         @Override
         public CharSequence getPageTitle(int position) {
             return fragment.get(position).first;

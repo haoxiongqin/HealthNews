@@ -113,7 +113,7 @@ public class BaseActivity extends AppCompatActivity {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
             SystemBarTintManager tintManager = new SystemBarTintManager(this);
             tintManager.setStatusBarTintColor(setStatusBarColor());
-//            tintManager.setNavigationBarTintColor(Color.TRANSPARENT);
+            tintManager.setNavigationBarTintColor(setStatusBarColor());
 //            tintManager.setNavigationBarAlpha(0.3f);
             tintManager.setStatusBarTintEnabled(true);
             tintManager.setNavigationBarTintEnabled(true);
@@ -121,7 +121,7 @@ public class BaseActivity extends AppCompatActivity {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             getWindow().setStatusBarColor(setStatusBarColor());
-//            getWindow().setNavigationBarColor(Color.TRANSPARENT);
+            getWindow().setNavigationBarColor(setStatusBarColor());
             ViewGroup mContentView = (ViewGroup)findViewById(Window.ID_ANDROID_CONTENT);
             View mChildView = mContentView.getChildAt(0);
             if (mChildView != null) {
