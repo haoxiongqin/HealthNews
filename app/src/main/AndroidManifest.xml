@@ -52,7 +52,8 @@
         <activity android:name=".ui.VideoListActivity" />
         <activity android:name=".ui.VideoPlayActivity" />
         <activity android:name=".ui.VideoMoreActivity" />
-        <activity android:name=".ui.VideoWebviewActivity"></activity>
+        <activity android:name=".ui.VideoWebviewActivity" />
+        <activity android:name=".ui.MentalityHealthActivity"></activity>
     </application>
 
 </manifest>

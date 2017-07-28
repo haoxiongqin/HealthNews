@@ -13,6 +13,7 @@ import java.util.List;
 public class MenuDataUtils {
     public static List<LeftItemMenu> getItemMenus(){
         List<LeftItemMenu> menus=new ArrayList<LeftItemMenu>();
+        menus.add(new LeftItemMenu(R.drawable.icon_zhanghaoxinxi,"心理养生"));
         menus.add(new LeftItemMenu(R.drawable.icon_zhanghaoxinxi,"养生要闻"));
         menus.add(new LeftItemMenu(R.drawable.icon_wodeguanzhu,"中医养生之道"));
         menus.add(new LeftItemMenu(R.drawable.icon_shoucang,"养生食谱"));
